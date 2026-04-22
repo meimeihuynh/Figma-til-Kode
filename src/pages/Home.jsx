@@ -1,16 +1,11 @@
 import { useState } from "react";
 import Header from "../components/Header";
 import ProductCard from "../components/ProductCard";
+import products from "src/Products";
 
 function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
-
-  const products = [
-    { id: "eiden", name: "Eiden" },
-    { id: "rei", name: "Rei" },
-    { id: "kuya", name: "Kuya" },
-  ];
 
   return (
     <div>

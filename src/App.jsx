@@ -1,20 +1,13 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Product from "./pages/Product";
-import Cart from "./pages/Cart";
 
 function App() {
   return (
     <div className="app">
       <div className="screen">
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/product/:id" element={<Product />} />
-            <Route path="/cart" element={<Cart />} />
-          </Routes>
-        </BrowserRouter>
+        <div className="content">
+          <img src="src/assets/rainbowbg.jpg" alt="rainbowheader" className="header" />
+          <img src="src/assets/nuqiulogo.png" alt="nuqiu" className="logo" />
+        </div>
       </div>
     </div>
   );

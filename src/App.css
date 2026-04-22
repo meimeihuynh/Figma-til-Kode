@@ -7,7 +7,7 @@
 
 .screen {
   width: 100%;
-  max-width: 390px;
+  max-width: 430px;
   height: 100vh;
   background: white;
   position: relative;
@@ -16,22 +16,13 @@
   flex-direction: column;
 }
 
+.header
+ {
+    width: 100%;
+ }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 12px;
-}
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
-}
-
-.card {
-  background: #eee;
-  padding: 10px;
-  border-radius: 12px;
+.logo {
+  width: auto;
+  height: 105px;
 }
